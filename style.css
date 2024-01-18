@@ -9,12 +9,19 @@ header{
   height: 70px;
   background-color: #EC715F;
   display: flex;
-  justify-content: flex-end;
 }
-.a{
+
+.nav-list{
+  text-align: center;
+  display: flex;
+}
+
+.nav-item{
+  color: #FAFAFA;
   font-size: 16px;
-  color: #FAFAFA
-  margin: 30px;
+  margin: 0 30px;
+  list-style: none;
+  display: inline-block;
 }
 
 main-visual{
