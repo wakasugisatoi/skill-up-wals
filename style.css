@@ -29,8 +29,8 @@ header{
   width: 100%;
   height: 650px;
   background-image: url(img/mv.png);
-  background-size: cover; 
-  background-position: center; 
+  background-size: cover;
+  background-position: center;
 }
 
 .main-visual-title{
@@ -38,7 +38,7 @@ header{
   font-size: 64px;
   text-align: center;
   padding-top: 200px;
-  
+
 }
 
 .main-visual-text{
@@ -61,6 +61,12 @@ header{
   padding-bottom: 8px;
 }
 
+.line{
+  border: 3px solid #EC715F;
+  width: 70px;
+  margin: auto;
+}
+
 .heading-text{
   font-size: 16px;
   color: #000000;
@@ -68,13 +74,13 @@ header{
   padding: 30px 0;
 }
 
-.production-group-top{
+.top-contant{
   display: flex;
   margin-bottom: 10px;
   justify-content: center;
 }
 
-.production-group-bottom{
+.bottom-contant{
   display: flex;
   padding-bottom: 90px;
   justify-content: center;
@@ -94,21 +100,6 @@ header{
   width:100%;
 }
 
-.feature-title{
-  font-size: 32px;
-  color: #000000;
-  text-align: center;
-  margin: 90px 0 8px;
-  
-}
-
-.feauture-text{
-  font-size: 16px;
-  color: #000000;
-  text-align: center;
-  margin: 30px 0;
-}
-
 .stength-group{
   display: flex;
   justify-content: center;
@@ -118,6 +109,7 @@ header{
 .stength-group-item{
   width: 320px;
   height: auto;
+  color: #000000;
   margin-right: 10px;
 }
 
@@ -129,7 +121,6 @@ header{
 
 .stength-group-item h1{
   font-size: 20px;
-  color: #000000;
   margin: 10px 0;
   display: flex;
   justify-content: center;
@@ -137,19 +128,129 @@ header{
 
 .stength-group-item p{
   font-size: 16px;
-  color: #000000;
 }
 
 .profile{
   width:100%;
+  background-color: #ECEFF1;
+}
+
+.profile-group{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.profile-img{
+  width: 250px;
+  height: 250px;
+  border-radius:50%;
+  background-image: url("img/my-icon.jpg");
+}
+
+.profile-left-contant{
+  width: 512px;
+  text-align: center;
+}
+
+.profile-right-contant{
+  width: 512px;
+  color: #000000;
+}
+
+.profile-right-contant h1{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.profile-right-contant p{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.profile-right-contant p:last-child{
+  font-size: 16px;
+  margin-bottom: 0;
 }
 
 .contact{
   width:100%;
 }
 
+.contact-group{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+  margin: 0 auto;
+}
+
+.left-contant{
+  width: 400px;
+}
+
+.contact-left-contant{
+  width: 130px;
+  color: #000000;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-left-contant h1{
+  font-size: 20px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.link-text{
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.link-text:last-child{
+  font-size: 16px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.right-contant{
+  width: 400px;
+}
+
+.contact-right-contant{
+  width: 170px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.contact-right-contant h1{
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+.icon{
+  display: flex;
+  font-size: 50px;
+  text-align: left;
+}
+
+.icon i{
+  margin-right: 20px;
+}
+
+.icon i:last-child{
+  margin-right: 0;
+}
+
 footer{
   width: 100%;
   height: 60px;
   background-color: #EC715F;
+}
+
+footer p{
+  font-size: 16px;
+  color: #FAFAFA;
+  text-align: center;
+  line-height: 60px;
 }
