@@ -11,8 +11,14 @@ header{
   display: flex; /*これの有無で画像サイズが変わる意味が分からない*/
 }
 
+.header-contant{
+  display: flex;
+  justify-content: space-between;
+  width: 1024px;
+  margin: 0 auto;
+}
+
 .nav-list{
-  text-align: center;
   display: flex;
 }
 
@@ -51,6 +57,11 @@ header{
 .portfolio{
   width:100%;
   background-color: #ECEFF1;
+}
+
+.portfolio-contant{
+  width:920px;
+  margin: 0 auto;
 }
 
 .heading-title{
@@ -100,6 +111,11 @@ header{
   width:100%;
 }
 
+.feature-contant{
+  width:980px;
+  margin: 0 auto;
+}
+
 .stength-group{
   display: flex;
   justify-content: center;
@@ -133,6 +149,11 @@ header{
 .profile{
   width:100%;
   background-color: #ECEFF1;
+}
+
+.profile-contant{
+  width:1024px;
+  margin: 0 auto;
 }
 
 .profile-group{
@@ -175,6 +196,11 @@ header{
 
 .contact{
   width:100%;
+}
+
+.contact-contant{
+  width:800px;
+  margin: 0 auto;
 }
 
 .contact-group{
